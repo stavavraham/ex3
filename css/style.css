@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div {
+
+    display: block;
+    width: 100%;
+}
+
+ a {
+    text-decoration:none;
+    color:#ffff;
+    font-family: Helvetica;
+    width: 85px;
+    height: 85px;
+}
+
+#logo {
+    display: block;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: 0px auto;
+    top: 25%;
+}
+
+header {
+    height: 192px;
+    background-color: #E5E5E5;
+    
+}
+
+.wrapper 
+{
+    
+    margin:0px auto;
+    width: 960;
+   
+  
+}
+.wrapper section{
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+   
+    background-color: #222222
+
+}
+nav a{
+    width: 90px;
+    height: 90px;
+    margin-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+    height: 62px;
+}
+
+ul a {
+    width:233px;
+    height:40px;
+    color:#ffffff;
+    display: block;
+    text-align:center;
+    line-height: 40px;
+    align-self:initial;
+    background-position: center;
+    margin-top:9px;
+}
+
+a:hover {
+    color: rgb(133, 131, 131);
+}
+
+
+.layout1 li {
+    position:relative;
+    top: 3%;
+    float: left;
+}
+
+.selected{
+    background-color: #2F96b4;
+}
+
+main 
+{
+position: absolute;
+width: 749px;
+height: 695px;
+left: 0px;
+top: 253px;
+}
+
+.containerOne
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 28px 40px;
+    height: 238px;
+    width: 238px;
+}
+
+.containerOne section{
+    height: 100px;
+    width: 100px;
+    background-color: #b94a48;
+
+}
+
+.containerTwo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 238px;
+    width: 238px;
+    position: relative;
+    left: 500px;
+    top:170px;
+
+}
+.containerTwo section {
+    height: 100px;
+    width: 100px;
+    background-color: #b94a48;
+}
+
+
+
+.layout1 aside  {
+    background-color: #eeeeee;
+    width: 244px;
+    height: 700px;
+    float: right;
+    margin-right:270px;   
+    
+}
+
+.side section{
+    position: relative;
+    top:160px;
+    left:75px;
+    height: 60px;
+    width: 149px;
+    background-color:#b94a48;
+}
+
+
+footer{
+    
+    width: 100%;
+    background-color:#d6d6d6;
+    clear:both;
+    height: 50px;
+}
+
+
+/**************layout2***************/
+
+.layout2 nav {
+
+width: 145px;
+height: 755px;
+
+}
+
+.layout2 ul { 
+           display:flex;
+           flex-direction: column;
+           margin:0 auto;
+           width:151px; 
+           list-style-type: none;
+         }
+
+.layout2 li a{
+
+    margin-left: 0px;
+    margin-top: 0px;
+    width:140px;
+    height:20px;
+   
+}
+
+
+
+.layout2 .selected{
+    background-color: #2F96b4;
+ 
+}
+
+.layout2 main{
+position: relative;
+background-color: #ffffff;
+width: 255px;
+height: 800px;
+left: -50px;
+top: 0px;
+}
+
+
+body {
+    overflow-x: hidden; 
+  }
+
+
+.layout2 .wrapper {
+    height: 758px;
+    width: 1000px;
+    display: flex;
+}
+
+.layout2 nav {
+    width: 145px;
+    height: 755px;
+    float: left;
+    
+}
+
+.layout2 li a {
+    padding: 2px 0 20px 5px;
+    display: block;
+    position: relative;
+}
+
+
+.layout2 aside {
+    width: 260px;
+    height: 755px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #eeeeee;
+    margin-right: 340px;
+}
+
+
+.square   {
+    width: 234px;
+    height: 234px;
+    display:flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap:wrap;
+    margin-top:511px;
+    margin-left: 11px;
+}
+
+.square section  {
+    height: 100px;
+    width: 100px;
+    background-color: #468847;
+}
+
+
+
+.allrec {
+    position: relative;
+    width: 597px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  
+   
+}
+
+
+.allrec section {
+    height: 100px;
+    width: 100px;
+    background-color:  #468847;
+    margin-right: 300px;
+    margin-left: -295px;
+}
+
+
+.layout2 .rec1 {
+    position: absolute;
+    top:22px;
+    left: 22px;
+    height: 323px;
+    width: 270px;
+}
+
+.layout2 .rec2  {
+    position: absolute;
+    top:22px;
+    right: 19px;
+    height: 254px;
+    width: 270px;
+}
+
+.layout2 .rec3 {
+    position: absolute;
+    top: 370px;
+    left: 22px;
+    height: 412px;
+    width: 270px;
+}
+
+.layout2 .rec4  {
+    position: absolute;
+    top: 300px;
+    right: 19px;
+    height: 364px;
+    width: 270px;
+}
+
+
+.stack
+{
+    position: fixed;
+    bottom: 0px;
+    clear: both;
+}
